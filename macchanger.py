@@ -14,7 +14,7 @@ def get_argument():
     parser.add_option("-r","--random", action = "get_current_mac()", help="gp")
     (options,result) = parser.parse_args()
     if not options.interface:
-        parser.error("[-] Please s[ecify the interface you want to change, use --help for more information.")
+        parser.error("[-] Please specify the interface you want to change, use --help for more information.")
     elif not options.new_mac:
         parser.error("[-] Please specify a new mac address, use --help for more information")
     return options
