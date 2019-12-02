@@ -1,2 +1,2 @@
 # macchanger
-MAC Address Changer both random and manua;
+MAC Address Changer both random and manual
